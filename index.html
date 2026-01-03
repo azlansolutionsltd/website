@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Muhammad Ahsan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azlan Solutions</title>
+    <!-- Bootstrap CDN  -->
+    <link
+      rel="stylesheet"
+      href="npm/bootstrap%405.2.0/dist/css/bootstrap.min.css"
+    />
+    <!-- Remix Icons  -->
+    <link href="npm/remixicon%402.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Fancy Box CDN  -->
+    <link rel="stylesheet" href="npm/%40fancyapps/ui%404.0/dist/fancybox.css" />
+    <!-- AOS CDN  -->
+    <link
+      rel="stylesheet"
+      href="../unpkg.com/aos%403.0.0-beta.6/dist/aos.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="padding: 0">
+          <img src="assets/images/brand-logo.png" alt="" width="180" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-outdent" id="icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1
+              data-aos="fade-left"
+              class="text-uppercase text-white fw-semibold display-1"
+            >
+              Welcome to Azlan Solutions
+            </h1>
+            <h5 class="text-white mt-3 mb-4" data-aos="fade-right">
+              WE'RE A DEDICATED TEAM OF CREATIVES CRAFTING STUNNING WEBSITES.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="50"
+          >
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">About us</h1>
+              <div class="line"></div>
+              <p>Learn more about our journey, values, and expertise.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
+            <img src="assets/images/about.jpg" alt="" />
+          </div>
+          <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5">
+            <h1>About Azlan Solutions</h1>
+            <p class="mt-3 mb-4">
+              At Azlan Solutions, we are a dedicated software company
+              specializing in delivering high-quality web development, mobile
+              development, and design services. Our team of skilled
+              professionals is passionate about turning your ideas into reality
+              by creating innovative, user-friendly, and scalable solutions.
+              Whether you're looking to build a robust web application, a sleek
+              mobile app, or a visually compelling design, we're here to help
+              you achieve your goals. We believe in a client-centric approach,
+              focusing on understanding your unique needs and providing tailored
+              solutions that drive results. Our commitment to excellence,
+              attention to detail, and relentless pursuit of perfection ensure
+              that every project we undertake exceeds expectations. Let us bring
+              your vision to life and elevate your business with cutting-edge
+              technology and design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section-padding border-top">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Awesome Services</h1>
+              <div class="line"></div>
+              <p>
+                We love to craft digital experiences for brands rather than crap
+                and more.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4 text-center">
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-pen-nib-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">Web Applications</h5>
+              <p>
+                Count on us to handle all your specific web development
+                requirements with professionalism and expertise.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="250"
+          >
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">Mobile Applications</h5>
+              <p>
+                Rely on our expertise to cater to all your mobile app
+                development needs with precision and professionalism.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="350"
+          >
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-ruler-2-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">Software Quality Assurance</h5>
+              <p>
+                We ensures that products meet specified requirements and
+                standards quality processes.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="450"
+          >
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-pie-chart-2-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">UI/UX Design</h5>
+              <p>
+                Transform your digital vision into seamless user experiences
+                with our UI/UX design expertise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTER -->
+    <section id="counter" class="section-padding">
+      <div class="container text-center">
+        <div class="row g-4">
+          <div
+            class="col-lg-3 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <h1 class="text-white display-4" id="applications">5+</h1>
+            <h6 class="text-uppercase mb-0 text-white mt-3">
+              Total Applications
+            </h6>
+          </div>
+          <div
+            class="col-lg-3 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="250"
+          >
+            <h1 class="text-white display-4" id="Client">3</h1>
+            <h6 class="text-uppercase mb-0 text-white mt-3">Trusted Clients</h6>
+          </div>
+          <div
+            class="col-lg-3 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="350"
+          >
+            <h1 class="text-white display-4" id="experience">10+</h1>
+            <h6 class="text-uppercase mb-0 text-white mt-3">
+              No. of Experience
+            </h6>
+          </div>
+          <div
+            class="col-lg-3 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="450"
+          >
+            <h1 class="text-white display-4" id="Tmember">10</h1>
+            <h6 class="text-uppercase mb-0 text-white mt-3">Team Members</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Our Portfolio</h1>
+              <div class="line"></div>
+              <p>Explore our recent work and success stories.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div
+            class="col-md-4 col-12"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="portfolio-item">
+              <a
+                target="_blank"
+                href="https://store.lsr.gg/pages/lovely-plugin?srsltid=AfmBOorZLrbdSEOqzNfJy-o0OHT6X34js7mSXoBYZ_vExGauh3vfvL5S"
+              >
+                <img
+                  src="assets/images/project1.png"
+                  class="img-fluid"
+                  alt="Project"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section id="reviews" class="section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Testimonials</h1>
+              <div class="line"></div>
+              <p>See what our clients are saying about their success with us</p>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5 gx-4">
+          <!-- Review 1 -->
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <div class="review-text">
+                  <p class="text-content">
+                    Azlan Solutions was great to work with—very communicative
+                    and responsive. Highly recommend their services.
+                  </p>
+                </div>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="assets/images/user.jpg"
+                  alt=""
+                  width="60"
+                />
+                <div class="ms-3">
+                  <h5>Constantinos</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat similar structure for other reviews, updating the content and delays accordingly -->
+          <!-- Review 2 -->
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="250"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <div class="review-text">
+                  <p class="text-content">
+                    Azlan Solutions was professional from the start. Very
+                    impressed with their work; delivered as promised. Will hire
+                    them again!
+                  </p>
+                </div>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="assets/images/user.jpg"
+                  alt=""
+                  width="60"
+                />
+                <div class="ms-3">
+                  <h5>Nathan</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="350"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <div class="review-text">
+                  <p class="text-content">
+                    Azlan Solutions is an expert and cooperative company. It is
+                    always best to work with a partner who is flexible and
+                    adaptable to project needs, particularly in terms of
+                    availability. I would highly recommend Azlan Solutions to
+                    anyone looking for top-notch development services. Thanks,
+                    Azlan Solutions, I look forward to working with you in the
+                    future.
+                  </p>
+                </div>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="assets/images/user.jpg"
+                  alt=""
+                  width="60"
+                />
+                <div class="ms-3">
+                  <h5>Mark</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 4 -->
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="450"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <div class="review-text">
+                  <p class="text-content">
+                    Azlan Solutions has been fantastic to work with. Their skill
+                    and determination to solve complex problems have made this
+                    project infinitely better. Communication is quick and
+                    constant. It's a pleasure to work with them, and we'd highly
+                    recommend them to others.
+                  </p>
+                </div>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="assets/images/user.jpg"
+                  alt=""
+                  width="60"
+                />
+                <div class="ms-3">
+                  <h5>Hareesh</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 5 -->
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-down"
+            data-aos-delay="550"
+          >
+            <div class="review">
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <div class="review-text">
+                  <p class="text-content">
+                    If you are looking for a company that is dedicated to their
+                    work, communicates effectively, and produces high-quality
+                    results, then I recommend you hire Azlan Solutions. They
+                    have been an incredible partner, and I know that they will
+                    be an asset to any organization. Their attention to detail
+                    and willingness to always go the extra mile make them
+                    stand-out performers. I'm grateful to have had the
+                    opportunity to work with them, and I'm confident that anyone
+                    else would be lucky to do the same.
+                  </p>
+                </div>
+              </div>
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="assets/images/user.jpg"
+                  alt=""
+                  width="60"
+                />
+                <div class="ms-3">
+                  <h5>Phil</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <!-- <section id="team" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Team Members</h1>
+              <div class="line"></div>
+              <p>
+                We love to craft digital experiances for brands rather than crap and more
+                lorem ipsums and do crazy skills
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4 text-center">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/person-1.jpg" alt="" />
+              </div>
+              <div class="team-member-content">
+                <h4 class="text-white">Jon Doe</h4>
+                <p class="mb-0 text-white">Webflow Artist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/person-2.jpg" alt="" />
+              </div>
+              <div class="team-member-content">
+                <h4 class="text-white">Jon Doe</h4>
+                <p class="mb-0 text-white">Webflow Artist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/person-3.jpg" alt="" />
+              </div>
+              <div class="team-member-content">
+                <h4 class="text-white">Jon Doe</h4>
+                <p class="mb-0 text-white">Webflow Artist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- CONTACT -->
+    <section class="section-padding bg-light" id="contact">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 text-center"
+            data-aos="fade-down"
+            data-aos-delay="150"
+          >
+            <div class="section-title">
+              <h1 class="display-4 text-white fw-semibold">Gete in touch</h1>
+              <div class="line bg-white"></div>
+              <p class="text-white">
+                Ready to start your project? Let's connect!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+          <div class="col-lg-8">
+            <form action="#" class="row g-3 p-lg-5 p-4 bg-white theme-shadow">
+              <div class="form-group col-lg-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter first name"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div class="form-group col-lg-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter last name"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div class="form-group col-lg-12">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email address"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div class="form-group col-lg-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter subject"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div class="form-group col-lg-12">
+                <textarea
+                  name="message"
+                  rows="5"
+                  class="form-control"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <div class="form-group col-lg-12 d-grid">
+                <button class="btn btn-brand">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <!-- <section id="blog" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Recent News & Articles</h1>
+              <div class="line"></div>
+              <p>
+                We love to craft digital experiances for brands rather than crap and more
+                lorem ipsums and do crazy skills
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/blog-post-1.jpg" alt="" />
+              </div>
+              <h5 class="mt-4">Web Design 2022</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi quos
+                magni!
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/blog-post-2.jpg" alt="" />
+              </div>
+              <h5 class="mt-4">Web Design 2022</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi quos
+                magni!
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/images/blog-post-3.jpg" alt="" />
+              </div>
+              <h5 class="mt-4">Web Design 2022</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi quos
+                magni!
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6">
+              <a href="#"
+                ><img src="assets/images/brand-logo.png" alt="" width="200"
+              /></a>
+              <div class="line"></div>
+              <p>
+                We're a dedicated team of creatives crafting stunning websites.
+              </p>
+              <div class="social-icons">
+                <!--<a href="#"><i class="ri-twitter-fill"></i></a>-->
+                <!--<a href="#"><i class="ri-instagram-fill"></i></a>-->
+                <!--<a href="#"><i class="ri-github-fill"></i></a>-->
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/azlan-solutions/"
+                  ><i class="ri-linkedin-box-fill"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-white">SERVICES</h5>
+              <div class="line"></div>
+              <ul>
+                <li><a href="#services">Web Applications</a></li>
+                <li><a href="#services">Mobile Applications</a></li>
+                <li><a href="#services">Quality Assurance </a></li>
+                <li><a href="#services">UI/UX Designing</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-white">ABOUT</h5>
+              <div class="line"></div>
+              <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-white">CONTACT</h5>
+              <div class="line"></div>
+              <ul>
+                <li>
+                  Business Park - Lynch Wood, Peterborough PE2 6GB, United
+                  Kingdom
+                </li>
+                <li>hr@azlansolutions.co.uk</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row g-4 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">© 2025, All Rights Reserved</p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">Power by Azlan Solutions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="npm/bootstrap%405.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="npm/%40fancyapps/ui%404.0/dist/fancybox.umd.js"></script>
+    <script src="npm/aos%403.0.0-beta.6/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
